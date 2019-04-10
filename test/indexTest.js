@@ -69,7 +69,7 @@ describe("index.js", () => {
     expect(name).to.equal("Kermit")
     expect(color).to.exist
     expect(color).to.equal("green")
-    expect(song).to.exist
+    expect(song).to.exist 
     expect(song).to.equal("The Rainbow Connection")
     expect(job).to.exist
     expect(job).to.equal("Host of The Muppet Show")
